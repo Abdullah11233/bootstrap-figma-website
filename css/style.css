@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ======= Navbar =======  */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(242, 102, 102, 1);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item i {
+    border: 2px solid rgba(242, 102, 102, 1);
+    color: white;
+    background-color: rgba(242, 102, 102, 1);
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 10px;
+}
+
+.navbar-nav {
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item i:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* ======= About =======  */
+.header-img img {
+    width: 650px;
+    height: 550px;
+}
+
+.social-links i {
+    color: rgba(242, 102, 102, 1);
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.social-links i:hover {
+    color: black;
+}
+
+.main-btn {
+    border: 2px solid rgba(242, 102, 102, 1);
+    background-color: rgba(242, 102, 102, 1);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* ======= Blog =======  */
+.wrapper {
+    margin-top: 100px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* ======= Blog =======  */
+.about-section {
+    margin-top: 100px;
+}
+
+.card img {
+    width: 550px;
+    height: 450px;
+}
+
+.about-content {
+    padding-left: 100px;
+    font-size: 15px;
+}
+
+.about-content span {
+    color: rgba(242, 102, 102, 1);
+}
+
+/* ======= FAQ =======  */
+.flex {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq h2 {
+    padding: 0 550px;
+    margin-top: 100px;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.card {
+    position: relative;
+}
+
+.card button {
+    color: black;
+}
+
+.card i {
+    color: rgba(242, 102, 102, 1);
+    position: absolute;
+    right: 0;
+}
+
+.faq-img img {
+    width: 100%;
+    height: 300px;
+}
+
+/* ======= Footer =======  */
+.cardss {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.part p {
+    font-size: 13px;
+}
+
+/* ======= The End =======  */
+.end-text {
+    margin-left: 300px;
+}
+
+.end-text .p {
+    margin-right: 50px;
+}
+
+.end .line {
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 30px;
+}
